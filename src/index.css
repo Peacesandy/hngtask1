@@ -1,13 +1,142 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-container{
+  width: 100%;
+  padding: 3em 1em;
+  display: grid;
+  place-items: center;
+}
+
+.profile-section{
+  position: relative;
+}
+
+#profile_img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.share-btn-desktop{
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  top: -0.8em;
+  left: 30em;
+}
+
+.share-btn-mobile{
+  position: absolute;
+  top: -1em;
+  left: 12em;
+}
+
+.profile-section h1{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.links-section{
+  margin-top: 2em;
+  display: grid;
+  gap: 2em;
+  width: 80%;
+  text-align: center;
+}
+
+.links-section a{
+  background: #EAECF0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  padding: 1em 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.links-section a:hover{
+  border: 1px solid #98A2B3;
+}
+
+.links-section a:active{
+  background: #D0D5DD;
+}
+
+.links-section a>span{
+  font-size: 10px;
+}
+
+.other-links{
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.other-links img{
+  width: 20px;
+  height: 20px;
+}
+
+#footer-container{
+  margin: auto;
+  max-width: 80%;
+  margin-top: 2.5em;
+  padding-bottom: 1em;
+}
+
+.footer-contents{
+  display: grid;
+  gap: 1em;
+}
+
+#footer-container hr{
+  color: #667085;
+  visibility: visible;
+  margin-bottom: 2em;
+}
+
+#footer-container p{
+  font-size: 14px;
+  color: #667085;
+}
+
+@media screen and (min-width: 600px) {
+  .share-btn-desktop{
+    display: inline;
+    visibility: visible;
+  }
+
+  .share-btn-mobile{
+    visibility: hidden;
+  }
+
+  .links-section a>span{
+    font-size: 12px;
+  }
+
+  #footer-container{
+    margin-top: 4em;
+  }
+
+  .footer-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  #footer-container hr{
+    visibility: visible;
+  }
+
+  #footer-container .footer-contents p{
+    font-size: 12px;
+  }
 }

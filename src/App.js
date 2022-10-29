@@ -1,4 +1,6 @@
 import profileimg from './assets/peace.JPG'
+import slacklogo from './assets/slackicon.png'
+import gitHubLogo from './assets/Icon.png'
 import shareButton1 from './assets/share-left.png'
 import shareButton2 from './assets/share-dot.png'
 
@@ -56,7 +58,14 @@ function App() {
           Design Books
         </a>
       </section>
+      <section className='otherlinks'>
+          <img src={slacklogo} alt='Slack logo'/>
+          <a href='https://github.com/Peacesandy'>
+            <img src={gitHubLogo} alt='GitHub logo'/>
+          </a>
+      </section>
     </main>
+    
     </>
   );
 }

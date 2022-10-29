@@ -26,7 +26,7 @@ function App() {
          src={shareButton2}
          alt='share button mobile'
          />
-         <h1 id='twitter'>peacesandy3</h1>
+         <h1 id='twitter'>PeaceSandy3</h1>
          <p id='slack'>Peace Sandy</p>
       </section>
       <section className='links-section'>

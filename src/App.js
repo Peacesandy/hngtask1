@@ -1,12 +1,21 @@
-
+import profileimg from './assets/peace.JPG'
 
 function App() {
   return (
-    <div className="App">
-      <h1></h1>
-    </div>
+    <>
+    <main className="main-container">
+      <section className="profile-section">
+         <img
+         id="profile_img"
+         src={profileimg}
+         alt='profile img'
+         />
+      </section>
+    </main>
+    </>
   );
 }
+
 
 
 

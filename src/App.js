@@ -31,6 +31,7 @@ function App() {
       </section>
       <section className='links-section'>
         <a href='http://twitter.com/PeaceSandy3'
+        target='_blank'
         id='twitter'>
           Twitter Link
         </a>

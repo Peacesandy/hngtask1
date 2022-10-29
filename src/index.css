@@ -20,7 +20,7 @@ body {
 }
 
 #slack{
-  visibility: hidden;
+  display: none;
 }
 
 #profile_img{

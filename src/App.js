@@ -2,6 +2,7 @@ import profileimg from './assets/peace.JPG'
 import slacklogo from './assets/slackicon.png'
 import gitHubLogo from './assets/Icon.png'
 import Zurilogo from './assets/zuri internship.png'
+import I4Glogo from './assets/I4G.png'
 import shareButton1 from './assets/share-left.png'
 import shareButton2 from './assets/share-dot.png'
 
@@ -77,6 +78,10 @@ function App() {
           className="footer-text">
             HNG Internship 9 Frontend Task
         </p>
+        <img 
+        className="I4Glogo"
+        src={I4Glogo} 
+        alt="I4G logo" />
         </div>
     </footer>
     </>

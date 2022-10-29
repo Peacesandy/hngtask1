@@ -1,6 +1,7 @@
 import profileimg from './assets/peace.JPG'
 import slacklogo from './assets/slackicon.png'
 import gitHubLogo from './assets/Icon.png'
+import Zurilogo from './assets/zuri internship.png'
 import shareButton1 from './assets/share-left.png'
 import shareButton2 from './assets/share-dot.png'
 
@@ -65,7 +66,19 @@ function App() {
           </a>
       </section>
     </main>
-    
+    <footer id='footer-container'>
+       <hr/>
+       <div className="footer-contents">
+        <img 
+        className="zurilogo"
+        src={Zurilogo} 
+        alt="Zuri Internship logo" />
+        <p 
+          className="footer-text">
+            HNG Internship 9 Frontend Task
+        </p>
+        </div>
+    </footer>
     </>
   );
 }

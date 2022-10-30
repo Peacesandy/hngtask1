@@ -1,4 +1,4 @@
-import profileimg from './assets/peace.JPG'
+import profileimg from './assets/img.JPG'
 import slacklogo from './assets/slackicon.png'
 import gitHubLogo from './assets/Icon.png'
 import Zurilogo from './assets/zuri internship.png'
